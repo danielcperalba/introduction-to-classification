@@ -59,3 +59,12 @@ from sklearn.metrics import accuracy_score
 taxa_de_acerto = accuracy_score(testes_classes, previsoes) * 100
 print(f"Acurácia: {taxa_de_acerto:.2f}%")
 ```
+
+## Conclusion
+
+With this small project I learned to:
+
+- Conceptualize what supervised learning and binary classification are;
+- Use item characteristics to define classes and estimate the classes of new items using estimators;
+- Apply the scikit-learn library and the LinearSVC class to create an estimator;
+- Calculate the accuracy of the model using the accuracy_score function.
